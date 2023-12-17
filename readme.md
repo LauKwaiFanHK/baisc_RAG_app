@@ -26,6 +26,6 @@ Image source: https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generati
 
 [Details description of above steps here](https://blog.langchain.dev/tutorial-chatgpt-over-your-data/)
 
-## References:
+## References
 - [What Is Retrieval-Augmented Generation, aka RAG?](https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/)
 - [Tutorial: ChatGPT Over Your Data](https://blog.langchain.dev/tutorial-chatgpt-over-your-data/)
