@@ -13,6 +13,7 @@
 
 ## How RAG works?
 <img src="/images/NVIDIA-RAG-diagram-scaled.jpg">
+Source: https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/
 
 1. Create a machine-readable index of a knowledge base that contains your customized data (i.e. a vector store)
 2. Create embedding (or a vector): convert a user query into a machine-readable numeric format. This numeric version of the query is called an embedding or a vector.
