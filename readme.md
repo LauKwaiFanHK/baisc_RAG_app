@@ -20,8 +20,7 @@ Image source: https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generati
 3. Compare the embedding (or vector) to vectors in the vector store (An embedding model will do this job).
 4. When there is a match or multiple matches, retrieve the relevant data.
 5. Convert these relevant data into human-readable words and pass them back to the LLM.
-6. LLM combines the retrieved words and its own response to the query into a final human-readable answer. Present the answer to the user.
-<br>
+6. LLM combines the retrieved words and its own response to the query into a final human-readable answer. Present the answer to the user.<br>
 [Details description of above steps here](https://blog.langchain.dev/tutorial-chatgpt-over-your-data/)
 
 ## References:
