@@ -17,7 +17,14 @@
 |Classification | Classify information that has the highest similarity label. |
 
 ## This project
-- In this project, the open-souce library [Sentence Transformers](https://www.sbert.net/index.html) are used to generate embeddings from sample text.
+- In this project, the open-source library [Sentence Transformers](https://www.sbert.net/index.html) are used to generate embeddings from sample text.
+- The model [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) from Sentence Transformers is used. This model
+    - is trained using a [self-supervised contrastive learning objective](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2#background) that given a sentence from the pair, the model should predict which sentence out of a set of randomly sampled other sentences was actually paired with it in the dataset.
+    - [Training data](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2#training-data) includes texts from Reddit comments, Yahoo answers, Stack Exchange etc.
+    - hence, maps sentences and paragraphs to a 384 dimensional dense vector space.
+    - intended use case is given an input text, output a vector which captures the semantic information of that input.
+    - **NOTE: input text longer than 256 word pieces is truncated.** 
+    - can be used for information retrieval, clustering, semantic search, sentence similarity tasks.
 
 ## References
 - [What are embeddings?](https://platform.openai.com/docs/guides/embeddings/what-are-embeddings)
